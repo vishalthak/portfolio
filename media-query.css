@@ -1,0 +1,155 @@
+/* start for 780px screen*/
+@media screen and (max-width: 768px) {
+  .header {
+      padding: 20px 5%;
+  }
+
+  .logo, .navbar a {
+      margin-left: 10px;
+  }
+
+  .home {
+      flex-direction: column;
+      align-items: center;
+      padding: 70px 5% 0;
+  }
+
+  .home-content {
+      max-width: 100%;
+      margin-left: 0;
+  }
+
+  .btn {
+      width: 100%;
+      margin-top: 20px;
+  }
+
+  .home-img {
+      width: 80%;
+  }
+  
+}
+/* end */
+
+/*start for 480px mobile screen */
+@media screen and (max-width: 480px) {
+  .header {
+      padding: 25px 5%;
+      display: none;
+  }
+
+  .logo {
+      font-size: 20px;
+      margin-left: 10px;
+  }
+
+  .navbar a {
+      font-size: 16px;
+      margin-left: 10px;
+  }
+
+  .home {
+      padding: 50px 5% 0;
+  }
+
+  .home-content {
+      max-width: 100%;
+      margin-left: 0;
+  }
+
+  .home-content h1 {
+      font-size: 30px;
+      margin-left: 19px;
+  }
+
+  .home-content h3 {
+      font-size: 24px;
+      margin-left: 19px;
+  }
+  .home-content p {
+      font-size: 13px;
+      margin-left: 25px;
+      margin-right: 5px;
+      line-height: 1;
+      max-width: 75%;
+      
+  }
+
+  .btn {
+      width: 60%;
+      margin-top: 50px;
+      margin-left: 50px;
+      /* position: static; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+  }
+
+  .home-img {
+      width: 80%;
+      /* max-width: 300px;
+      height: auto; */
+      position: absolute;
+      margin-top: 430px;
+  }
+
+  .home-sci  {
+    position: absolute;
+    bottom: 5px;
+    margin-right: 95px;
+    /* margin: 1px; */
+    /* left: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+
+/* end */
+
+/* for small desktop */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .header {
+      padding: 15px 5%;
+  }
+
+  .logo { 
+      font-size: 22px;
+      margin-left: 15px;
+  }
+
+  .navbar a {
+      font-size: 18px;
+      margin-left: 15px;
+  }
+
+  .home {
+      padding: 50px 5% 0;
+  }
+
+  .home-content h1 {
+      font-size: 48px;
+  }
+
+  .home-content h3 {
+      font-size: 28px;
+  }
+
+  .home-content p {
+      font-size: 16px;
+  }
+
+  .btn {
+      width: 180px;
+      margin-top: 20px;
+  }
+
+  .home-img {
+      width: 410px;
+  }
+
+}
+
+/* end */
